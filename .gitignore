@@ -1,0 +1,5 @@
+student-auth-backend/node_modules
+frontend/node_modules
+student-auth-backend/.env
+frontend/.env
+frontend/dist
