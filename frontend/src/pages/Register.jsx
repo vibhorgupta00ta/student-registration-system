@@ -13,7 +13,7 @@ export default function Register() {
     e.preventDefault();
 
     try {
-      await API.post("/register", form);
+      await API.post("/api/register", form);
       alert("Registered Successfully ✅");
       navigate("/");
     } catch (err) {
